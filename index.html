@@ -1,0 +1,306 @@
+<!doctype html>
+<html class="no-js" lang="pt">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="Formulario teste">
+        <meta name="author" content="Michael Cezar">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
+        <meta name="referrer" content="origin">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <title>DinariPay</title>
+        <link rel='shortcut icon' href="assets/image/favicon.png">
+        <link rel="apple-touch-icon" href="assets/image/favicon.png">
+        <link type="text/css" rel="stylesheet" href="assets/plugin/bootstrap/bootstrap-4.3.1/css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="assets/css/fontawesome-free/css/all.min.css">
+	    <link type="text/css" rel="stylesheet" href="assets/plugin/datepicker/css/bootstrap-datepicker.css">
+        <link type="text/css" rel="stylesheet" href="assets/plugin/datatables/dataTables.bootstrap4.min.css">
+	    <link type="text/css" rel="stylesheet" href="assets/css/custom.css">
+    </head>
+
+    <body>
+        <div class="main">
+            <div class="card" style="">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-6">
+                            <h5 class="card-title">Digitação de Nota Fiscal  </h5>
+                        </div>
+                        <div class="col-6">
+                            <img src="assets/image/logo.png" alt="Logo"  height="35" style="float:right"> 
+                        </div>
+                    </div>
+                    
+
+                    <hr>
+                    <h6 class="card-title"><i class="fa fa-address-card" aria-hidden="true"></i> Informações do Cedente</h6>
+
+                    <form autocomplete="off">
+                        <div class="form-group row">
+                            <div class="col-4">
+                                <label for="cnpj-cpf-cedente">CNPJ/CPF</label>
+                                <input type="text" class="form-control" id="cnpj-cpf-cedente" aria-describedby="cnpj-cpf-cedente" placeholder="CNPJ/CPF" autocomplete="off">
+                            </div>
+                            <div class="col-8">
+                                <label for="razao-social-nome-cedente">Razão Social/Nome</label>
+                                <input type="text" class="form-control" id="razao-social-nome-cedente" aria-describedby="razao-social-nome-cedente" placeholder="Razão Social/Nome" autocomplete="off">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-4">
+                                <label for="telefone-cedente">Telefone</label>
+                                <input type="text" class="form-control" id="telefone-cedente" aria-describedby="telefone-cedente" placeholder="Telefone" autocomplete="off">
+                            </div>
+                            <div class="col-8">
+                                <label for="email-cedente">E-Mail</label>
+                                <input type="text" class="form-control" id="email-cedente" aria-describedby="email-cedente" placeholder="E-Mail" autocomplete="off">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-3">
+                                <label for="cep-cedente">CEP</label>
+                                <input type="text" class="form-control" id="cep-cedente" aria-describedby="cep-cedente" placeholder="CEP" autocomplete="off">
+                            </div>
+                            <div class="col-6">
+                                <label for="logradouro-cedente">Logradouro</label>
+                                <input type="text" class="form-control" id="logradouro-cedente" aria-describedby="logradouro-cedente" placeholder="Logradouro" autocomplete="off">
+                            </div>
+                            <div class="col-3">
+                                <label for="numero-cedente">Número</label>
+                                <input type="text" class="form-control" id="numero-cedente" aria-describedby="numero-cedente" placeholder="Número" autocomplete="off">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-2">
+                                <label for="complemento-cedente">Complemento</label>
+                                <input type="text" class="form-control" id="complemento-cedente" aria-describedby="complemento-cedente" placeholder="Complemento" autocomplete="off">
+                            </div>
+                            <div class="col-4">
+                                <label for="bairro-cedente">Bairro</label>
+                                <input type="text" class="form-control" id="bairro-cedente" aria-describedby="bairro-cedente" placeholder="Bairro" autocomplete="off">
+                            </div>
+                            <div class="col-4">
+                                <label for="cidade-cedente">Cidade</label>
+                                <input type="text" class="form-control" id="cidade-cedente" aria-describedby="cidade-cedente" placeholder="Cidade" autocomplete="off">
+                            </div>
+                            <div class="col-2">
+                                <label for="estado-cedente">Estado</label>
+                                <select class="form-control" id="estado-cedente" aria-describedby="estado-cedente" placeholder="Estado" autocomplete="off">
+                                    <option value=null></option>
+                                    <option value="1">AC</option>
+                                    <option value="2">AL</option>
+                                    <option value="3">AM</option>
+                                    <option value="4">AP</option>
+                                    <option value="5">BA</option>
+                                    <option value="6">CE</option>
+                                    <option value="7">DF</option>
+                                    <option value="8">ES</option>
+                                    <option value="9">GO</option>
+                                    <option value="10">MA</option>
+                                    <option value="11">MG</option>
+                                    <option value="12">MS</option>
+                                    <option value="13">MT</option>
+                                    <option value="14">PA</option>
+                                    <option value="15">PB</option>
+                                    <option value="16">PE</option>
+                                    <option value="17">PI</option>
+                                    <option value="18">PR</option>
+                                    <option value="19">RJ</option>
+                                    <option value="20">RN</option>
+                                    <option value="21">RO</option>
+                                    <option value="22">RR</option>
+                                    <option value="23">RS</option>
+                                    <option value="24">SC</option>
+                                    <option value="25">SE</option>
+                                    <option value="26">SP</option>
+                                    <option value="27">TO</option>
+                                </select>
+                            </div>
+                        </div>  
+                    </form>
+
+                    <hr><br/>
+                    <h6 class="card-title"><i class="fa fa-address-book" aria-hidden="true"></i> Informações do Sacado</h6>
+
+                    <form autocomplete="off">
+                        <div class="form-group row">
+                            <div class="col-4">
+                                <label for="cnpj-cpf-cedente">CNPJ/CPF</label>
+                                <input type="text" class="form-control" id="cnpj-cpf-cedente" aria-describedby="cnpj-cpf-cedente" placeholder="CNPJ/CPF" autocomplete="off">
+                            </div>
+                            <div class="col-8">
+                                <label for="razao-social-nome-cedente">Razão Social/Nome</label>
+                                <input type="text" class="form-control" id="razao-social-nome-cedente" aria-describedby="razao-social-nome-cedente" placeholder="Razão Social/Nome" autocomplete="off">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-4">
+                                <label for="telefone-cedente">Telefone</label>
+                                <input type="text" class="form-control" id="telefone-cedente" aria-describedby="telefone-cedente" placeholder="Telefone" autocomplete="off">
+                            </div>
+                            <div class="col-8">
+                                <label for="email-cedente">E-Mail</label>
+                                <input type="text" class="form-control" id="email-cedente" aria-describedby="email-cedente" placeholder="E-Mail" autocomplete="off">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-3">
+                                <label for="cep-cedente">CEP</label>
+                                <input type="text" class="form-control" id="cep-cedente" aria-describedby="cep-cedente" placeholder="CEP" autocomplete="off">
+                            </div>
+                            <div class="col-6">
+                                <label for="logradouro-cedente">Logradouro</label>
+                                <input type="text" class="form-control" id="logradouro-cedente" aria-describedby="logradouro-cedente" placeholder="Logradouro" autocomplete="off">
+                            </div>
+                            <div class="col-3">
+                                <label for="numero-cedente">Número</label>
+                                <input type="text" class="form-control" id="numero-cedente" aria-describedby="numero-cedente" placeholder="Número" autocomplete="off">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-2">
+                                <label for="complemento-cedente">Complemento</label>
+                                <input type="text" class="form-control" id="complemento-cedente" aria-describedby="complemento-cedente" placeholder="Complemento" autocomplete="off">
+                            </div>
+                            <div class="col-4">
+                                <label for="bairro-cedente">Bairro</label>
+                                <input type="text" class="form-control" id="bairro-cedente" aria-describedby="bairro-cedente" placeholder="Bairro" autocomplete="off">
+                            </div>
+                            <div class="col-4">
+                                <label for="cidade-cedente">Cidade</label>
+                                <input type="text" class="form-control" id="cidade-cedente" aria-describedby="cidade-cedente" placeholder="Cidade" autocomplete="off">
+                            </div>
+                            <div class="col-2">
+                                <label for="estado-cedente">Estado</label>
+                                <select class="form-control" id="estado-cedente" aria-describedby="estado-cedente" placeholder="Estado" autocomplete="off">
+                                    <option value=null></option>
+                                    <option value="1">AC</option>
+                                    <option value="2">AL</option>
+                                    <option value="3">AM</option>
+                                    <option value="4">AP</option>
+                                    <option value="5">BA</option>
+                                    <option value="6">CE</option>
+                                    <option value="7">DF</option>
+                                    <option value="8">ES</option>
+                                    <option value="9">GO</option>
+                                    <option value="10">MA</option>
+                                    <option value="11">MG</option>
+                                    <option value="12">MS</option>
+                                    <option value="13">MT</option>
+                                    <option value="14">PA</option>
+                                    <option value="15">PB</option>
+                                    <option value="16">PE</option>
+                                    <option value="17">PI</option>
+                                    <option value="18">PR</option>
+                                    <option value="19">RJ</option>
+                                    <option value="20">RN</option>
+                                    <option value="21">RO</option>
+                                    <option value="22">RR</option>
+                                    <option value="23">RS</option>
+                                    <option value="24">SC</option>
+                                    <option value="25">SE</option>
+                                    <option value="26">SP</option>
+                                    <option value="27">TO</option>
+                                </select>
+                            </div>
+                        </div>  
+                    </form>
+
+                    <hr><br/>
+                    <h6 class="card-title"><i class="fa fa-newspaper" aria-hidden="true"></i> Informações da Nota Fiscal</h6>
+
+                    <form autocomplete="off">
+                        <div class="form-group row">
+                            <div class="col-4">
+                                <label for="numero-nf">Número da NF</label>
+                                <input type="text" class="form-control" id="numero-nf" aria-describedby="numero-nf" placeholder="Número da NF" autocomplete="off">
+                            </div>
+                            <div class="col-4">
+                                <label for="numero-nf">Data de Emissão da NF</label>
+                                <input type="text" class="form-control dt" id="data-nf" aria-describedby="data-nf" placeholder="Data de Emissão da NF" autocomplete="off">
+                            </div>
+                            <div class="col-4">
+                                <label for="valor-nf">Valor Total da NF</label>
+                                <input type="text" class="form-control moeda" id="valor-nf" aria-describedby="valor-nf" placeholder="Valor Total da NF" autocomplete="off">
+                            </div>
+                        </div>
+                        <br/>
+                        <p>Caso a Nota Fiscal possua Fatura(s)/Duplicata(s), informe os dados abaixo e clique em "Adicionar Fatura/Duplicata".<br>Repita esse processo se houver mais de uma fatura ou duplicata.</p>
+                        <div class="form-group row">
+                            <div class="col-4">
+                                <label for="numero-duplicata-nf">Número da Fatura/Duplicata</label>
+                                <input type="text" class="form-control" id="numero-duplicata-nf" aria-describedby="numero-duplicata-nf" placeholder="Número Fatura/Duplicata" autocomplete="off">
+                            </div>
+                            <div class="col-4">
+                                <label for="vencimento-duplicata-nf">Vencimento da Fatura/Duplicata</label>
+                                <input type="text" class="form-control dt" id="vencimento-duplicata-nf" aria-describedby="vencimento-duplicata-nf" placeholder="Vencimento Fatura/Duplicata" autocomplete="off">
+                            </div>
+                            <div class="col-4">
+                                <label for="valor-duplicata-nf">Valor da Fatura/Duplicata</label>
+                                <input type="text" class="form-control moeda" id="valor-duplicata-nf" aria-describedby="valor-duplicata-nf" placeholder="Valor Fatura/Duplicata" autocomplete="off">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-4">
+                                <button type="button" class="btn btn-info " id="btn-add-duplicata-nf">Adicionar Fatura/Duplicata</button>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-12">
+                                <br/>
+                                <p><strong>Fatura(s)/Duplicata(s) adicionada(s)</strong></p>
+                                <table id="table-fatura-nf" class="table table-hover table-overflow table-striped nowrap" width="100%">
+                                    <thead>
+                                        <tr>
+                                            <th>
+                                                Ação
+                                            </th>
+                                            <th>
+                                                Fatura/Duplicata
+                                            </th>
+                                            <th>
+                                                Vencimento
+                                            </th>
+                                            <th>
+                                                Valor
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </div>
+                    </form>
+
+                    <hr><br/>
+                    <button type="button" class="btn btn-danger " id="btn-reiniciar">Reiniciar</button>
+                    <button type="button" class="btn btn-success " id="btn-finalizar">Finalizar</button>
+                </div>
+            </div>
+            
+        </div>
+
+       
+    
+
+        <script type="text/javascript" src="assets/plugin/jquery/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="assets/plugin/bootstrap/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/plugin/moment/moment-with-locales.js"></script>
+
+        <script type="text/javascript" src="assets/plugin/datepicker/js/bootstrap-datepicker.js?"></script>
+	    <script type="text/javascript" src="assets/plugin/datepicker/locales/bootstrap-datepicker.pt-BR.min.js"></script>
+        <script type="text/javascript" src="assets/plugin/maskMoney/jquery.maskMoney.js"></script>
+	    <script type="text/javascript" src="assets/plugin/jQueryMaskPlugin/jquery.mask.js"></script>
+        <script type="text/javascript" src="assets/plugin/datatables/jquery.dataTables.min.js"></script>
+        <script type="text/javascript" src="assets/plugin/datatables/dataTables.bootstrap4.min.js"></script>
+        <script type="text/javascript" src="assets/plugin/sweetAlert/sweetalert.min.js"></script>
+        <script type="text/javascript" src="assets/js/custom.js"></script>
+    </body>
+</html>
